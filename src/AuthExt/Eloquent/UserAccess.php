@@ -3,9 +3,14 @@
 namespace AuthExt\Eloquent;
 
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\SoftDeletes;
 
 class UserAccess extends Model
 {
+
+    /**
+     * Table name
+     * @var string
+     */
     protected $table = 'user_access';
+
 }
